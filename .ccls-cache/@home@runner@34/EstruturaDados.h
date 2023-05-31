@@ -4,7 +4,7 @@
 // Classe abstrata para representar uma estrutura de dados
 class EstruturaDados {
 public:
-    virtual void inserir(char valor) = 0;
+    virtual void inserir(char) = 0;
     virtual void remover() = 0;
     virtual void exibir() = 0;
 };

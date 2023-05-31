@@ -9,7 +9,7 @@ private:
   ListaLigada lista;
 
 public:
-  void inserir(char valor) override;
+  void inserir(char) override;
   void remover() override;
   void exibir() override;
 };

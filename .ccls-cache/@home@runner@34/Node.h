@@ -6,11 +6,11 @@ class Node{
     char info;
     Node *proximo;
   public:
-    Node(char X, Node *ptrnode);
+    Node(char X, Node *);
     ~Node();
     char getInfo();
     Node *getProx();
-    void setProx(Node *ptrnode);
+    void setProx(Node *);
 };
 
 typedef Node *NodePtr;

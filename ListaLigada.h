@@ -10,7 +10,7 @@ private:
 public:
     ListaLigada();
     ~ListaLigada();
-    void setCabeca(NodePtr no);
+    void setCabeca(NodePtr);
     NodePtr getCabeca();
     
     void inserir(char valor) override;

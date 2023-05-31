@@ -8,13 +8,13 @@ void Fila::inserir(char valor) {
 void Fila::remover() {
   if (lista.getCabeca() != NULL) {
     NodePtr atual = lista.getCabeca();
-    NodePtr anterior = nullptr;
+    NodePtr anterior = NULL;
     while (atual->getProx() != NULL) {
       anterior = atual;
       atual = atual->getProx();
     }
-    if (anterior != nullptr) {
-      anterior->setProx(nullptr);
+    if (anterior != NULL) {
+      anterior->setProx(NULL);
     } else {
       lista.setCabeca(NULL);
     }

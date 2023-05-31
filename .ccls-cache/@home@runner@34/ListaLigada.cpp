@@ -5,7 +5,7 @@ ListaLigada::ListaLigada() : cabeca(NULL) {}
 
 ListaLigada::~ListaLigada() {
   NodePtr atual = cabeca;
-  while (atual != nullptr) {
+  while (atual != NULL) {
     NodePtr proximo = atual->getProx();
     delete atual;
     atual = proximo;
@@ -26,7 +26,7 @@ void ListaLigada::inserir(char valor) {
 }
 
 void ListaLigada::remover() {
-  if (cabeca != nullptr) {
+  if (cabeca != NULL) {
     NodePtr temp = cabeca;
     cabeca = cabeca->getProx();
     delete temp;
@@ -35,7 +35,7 @@ void ListaLigada::remover() {
 
 void ListaLigada::exibir() {
     NodePtr atual = cabeca;
-    while (atual != nullptr) {
+    while (atual != NULL) {
         std::cout << atual->getInfo() << "-";
         atual = atual->getProx();
     }
