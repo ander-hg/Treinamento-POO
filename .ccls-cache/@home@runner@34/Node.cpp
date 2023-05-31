@@ -4,10 +4,7 @@
 
 using namespace std;
 
-Node::Node(char x, NodePtr ptrprox){
-  info = x;
-  proximo = ptrprox;
-}
+Node::Node(char x, NodePtr ptrprox) : info(x), proximo(ptrprox){}
 
 Node::~Node(){}
 
