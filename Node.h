@@ -11,6 +11,7 @@ class Node{
     char getInfo();
     Node *getProx();
     void setProx(Node *);
+    Node& operator+(Node& outro) ;
 };
 
 typedef Node *NodePtr;

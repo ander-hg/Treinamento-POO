@@ -1,0 +1,18 @@
+Vantagens POO:
+
+  confiável, alrerar uma parte não altera outras partes;
+  oportuno, partes podem ser desenvolvidas em paralelo;
+  manutenivel, atualizar o software é mais fácil, uma manutenção beneficia todas as partes;
+  extensível, é fácil adicionar novas funcionalidades;
+  reutilizável;
+  natural, mais fácil de entender, se preocuopa mais com as funcionalidades 
+
+
+Princípios:
+
+  Encapsular: Ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior.
+      torna mudanças invisíveis
+      facilita reutilização do codigo
+      reduz efeitos colaterais
+
+  Herança: Permite basear uma nova classe classe na defenição (atributos e métodos) de uma outra classe previamente existente

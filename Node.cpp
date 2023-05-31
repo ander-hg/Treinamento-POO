@@ -19,3 +19,10 @@ NodePtr Node::getProx(){
 void Node::setProx(Node *ptrnode){
   proximo = ptrnode;
 }
+
+Node& Node::operator+(Node& outro) {
+    if (this->getProx() == nullptr) {
+        this->setProx(&outro);
+    }
+    return *this;
+}

@@ -1,10 +1,18 @@
 #include <iostream>
 #include "Pilha.h"
 #include "Fila.h"
+#include "Node.h"
 
 using namespace std;
 
 int main() {
+  NodePtr node1 = new Node('a', NULL);
+  NodePtr node2 = new Node('b', NULL);
+  *node1 + *node2;
+  std::cout << "No Ligado: " << node1->getInfo() << "--" << node1->getProx()->getInfo() << endl;
+  delete node1;
+  delete node2;
+
   char op = 't';
   char valor;
   cout << "digite: (f)fila (p)pilha  [enter]" << endl;
